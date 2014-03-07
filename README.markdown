@@ -1,5 +1,7 @@
 # Emacs for Clojure Starter Kit
 
+test
+
 This repo is a minor extension of [The Emacs Starter Kit, v2](https://github.com/technomancy/emacs-starter-kit/tree/v2). Added functionality:
 
 * Sets $PATH so that it's the same as your shell $PATH
