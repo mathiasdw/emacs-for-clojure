@@ -56,7 +56,7 @@ entirely."
     (define-key map (kbd "M-.") 'cider-jump-to-var)
     (define-key map (kbd "M-,") 'cider-jump-back)
     (define-key map (kbd "C-c M-.") 'cider-jump-to-resource)
-    (define-key map (kbd "M-TAB") 'complete-symbol)
+    (define-key map (kbd "C-c TAB") 'complete-symbol)
     (define-key map (kbd "C-M-x")   'cider-eval-defun-at-point)
     (define-key map (kbd "C-c C-c") 'cider-eval-defun-at-point)
     (define-key map (kbd "C-x C-e") 'cider-eval-last-sexp)
