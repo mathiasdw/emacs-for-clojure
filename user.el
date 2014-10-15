@@ -50,3 +50,15 @@
 
 ;; Save here instead of littering current directory with emacs backup files
 (setq backup-directory-alist `(("." . "~/.saves")))
+
+(elpy-enable)
+(elpy-use-ipython)
+;(pyvenv-mode)
+
+
+;;; Use flycheck rather than flymake
+(when (require 'flycheck nil t)
+  (remove-hook 'elpy-modules 'elpy-module-flymake)
+  (add-hook 'elpy-mode-hook 'flycheck-mode))
+
+
